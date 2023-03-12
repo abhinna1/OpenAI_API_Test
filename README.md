@@ -17,3 +17,15 @@ The OpenAI API is also highly customizable, with a wide range of options for dev
 In addition, the OpenAI API is designed to be secure and reliable, with strong encryption and strict access controls to ensure that sensitive data is protected at all times.
 
 Overall, the OpenAI API is a powerful tool that provides developers with access to cutting-edge natural language processing technology. With its ease of use, scalability, and customization options, it has the potential to transform the way we interact with machines and build intelligent applications in a wide range of industries.
+
+## How to setup this project?
+
+1. Clone the repository.
+2. Run npm install to install all the dependencies.
+3. Generate your OpenAI API Key from OpenAI's official website.
+4. Create a .env file and create an environment variable API_SECRET_KEY.
+5. Run the index.js file using Node JS. ( <strong>" node index "</strong> in terminal )
+
+## Structure
+>
+> The index.js file consists the configuration of the npm OpenAI module. The max_token parameter refers to the number of words you want to generate. Similarly, the prompt can also be changed to anything you want. The output is generated as a response to your prompt message.
